@@ -1,0 +1,21 @@
+.barcode-container {
+  width: 1240px;
+  position: absolute;
+  left: 55%;
+  transform: translateX(-50%);
+}
+
+@media print {
+  .all-container {
+    display: none !important;
+  }
+  .barcode-container {
+    width: 1000px;
+    position: absolute;
+    left: 5%;
+    transform: none;
+  }
+  .barcode-container svg {
+    margin: 1.2rem 1.2rem;
+  }
+}
