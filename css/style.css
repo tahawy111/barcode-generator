@@ -1,8 +1,7 @@
 .barcode-container {
-  width: 1240px;
-  position: absolute;
-  left: 55%;
-  transform: translateX(-50%);
+  width: 1200px;
+  position: relative;
+  left: 18%;
 }
 
 @media print {
@@ -10,12 +9,8 @@
     display: none !important;
   }
   .barcode-container {
-    width: 1000px;
-    position: absolute;
-    left: 5%;
-    transform: none;
-  }
-  .barcode-container svg {
-    margin: 1.2rem 1.2rem;
+    width: 1200px;
+    position: relative;
+    left: 1%;
   }
 }

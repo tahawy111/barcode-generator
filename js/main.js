@@ -8,9 +8,9 @@ submit.addEventListener("click", () => {
   JsBarcode("#barcode", data.value !== "" ? data.value : Date.now(), {
     background: "#fff",
     color: "#000",
-    height: 100,
+    height: 50,
     displayValue: true,
   });
 });
 
-barcodeContainer.innerHTML = `<svg id="barcode"></svg>`.repeat(24);
+barcodeContainer.innerHTML = `<svg id="barcode"></svg>`.repeat(68);
